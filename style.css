@@ -1,0 +1,39 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Background color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    background-color: rgb(81, 19, 19);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    color: #d20c0c; /* Text color for the header */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #555; /* Text color for paragraph */
+}
+
+.welcome-message {
+    font-size: 1.5em;
+    color: #d1d3d9; /* Text color for the welcome message */
+    margin-top: 20px;
+}
